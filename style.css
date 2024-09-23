@@ -223,9 +223,9 @@ width: 93%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    position: absolute;
     background-color: rgba(186,225,182,255); 
-
+    position: relative;
+    bottom: 0px;
 }
 
 .shop p
@@ -338,3 +338,88 @@ width: 93%;
     margin-bottom: 10px;
  }
  
+ /* #footer */
+
+ .backtotop
+ {
+    height: 50px;
+    background-color: #303740;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .footer2
+ {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232f3e;
+
+ }
+ .headinglist
+ {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+ }
+  li
+  {
+    list-style-type:  none;
+    color: #dddddd;
+ }
+
+ .table
+ {
+    height:200px ;
+    width: 165px; ;
+ }
+
+ 
+ .Lists
+ {
+    height:200px ;
+    width: 165px; ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+
+ .footerlast
+ {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+ }
+
+ .contentbottom
+ {
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .amazonlogobottom
+ {
+    background-image: url(Amazon-Logo-31\ \(1\).jpg);
+    height:50px;
+    width: 100px;
+    background-size: cover;
+  
+
+ }
+
+ .madeby
+ {
+    height: 50px;
+    display: flex;
+   align-items: center;
+   position: relative;
+   bottom: 6px;
+   color: white;
+ }
